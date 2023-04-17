@@ -74,6 +74,7 @@ const Wrapper = styled.section`
     margin-top: 1rem;
     text-align: center;
     font-weight: 700;
+    color: var(--clr-red-dark);
   }
 `;
 

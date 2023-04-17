@@ -81,7 +81,7 @@ const Wrapper = styled.div`
     justify-content: center;
     border-radius: 50%;
     font-size: 0.75rem;
-    color: var(--clr-white);
+    color: var(--clr-red-dark);
     padding: 12px;
   }
   .auth-btn {

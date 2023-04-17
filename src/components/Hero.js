@@ -56,6 +56,7 @@ const Wrapper = styled.section`
       font-size: 1.25rem;
     }
     .hero-btn {
+      color: var(--clr-red-dark);
       padding: 0.75rem 1.5rem;
       font-size: 1rem;
     }

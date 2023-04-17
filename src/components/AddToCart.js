@@ -114,6 +114,7 @@ const Wrapper = styled.section`
   .btn {
     margin-top: 1rem;
     width: 140px;
+    color: var(--clr-red-dark);
   }
 `;
 export default AddToCart;

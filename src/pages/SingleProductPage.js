@@ -132,6 +132,10 @@ const Wrapper = styled.main`
     right: 4rem;
   }
 
+  .btn {
+    color: var(--clr-red-dark);
+  }
+
   @media (min-width: 992px) {
     .product-center {
       grid-template-columns: 1fr 1fr;

@@ -52,6 +52,7 @@ const Wrapper = styled.section`
     display: block;
     width: 148px;
     margin: 0 auto;
+    color: var(--clr-red-dark);
     text-align: center;
   }
   @media (min-width: 576px) {
