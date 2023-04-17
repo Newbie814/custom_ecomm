@@ -1,8 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import heroBcg from '../assets/hero-bcg.jpeg';
-import heroBcg2 from '../assets/hero-bcg-2.jpeg';
+const heroBcgUrl =
+  'https://res.cloudinary.com/dylvkdabj/image/upload/v1681700966/website%20pics%20family/download_hszt9p.jpg';
+const heroBcg2Url =
+  'https://res.cloudinary.com/dylvkdabj/image/upload/v1681700962/website%20pics%20family/wmyW4XbATmyzgu2soX34Ld_hgxhhh.jpg';
 
 const Hero = () => {
   return (
@@ -23,8 +25,8 @@ const Hero = () => {
         </Link>
       </article>
       <article className='img-container'>
-        <img src={heroBcg} alt='nice table' className='main-img' />
-        <img src={heroBcg2} alt='person working' className='accent-img' />
+        <img src={heroBcgUrl} alt='nice table' className='main-img' />
+        <img src={heroBcg2Url} alt='person working' className='accent-img' />
       </article>
     </Wrapper>
   );
